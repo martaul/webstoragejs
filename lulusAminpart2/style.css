@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,input, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clear {
+    clear: left;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+input{
+    font-size: 16px;
+}
+
+.inputChecked{
+    font-family: "Open Sans", sans-serif;
+    color: #454d43;
+    margin:5px 0 0 20px;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+header{
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #dafacd;
+    color: #454d43;
+}
+
+main {
+    overflow: auto;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+
+}
+.input_section {
+    box-shadow: 1;
+    border-radius: 20px;
+    border: 3px grey solid;
+    height: 450px;
+    text-align: justify;
+    overflow: auto;
+    margin-top: 50px;
+    box-shadow: 5px 8px 8px #dafacd;
+}
+
+.input_section > h2 {
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    color: #454d43;
+    border-bottom: 3px grey solid;
+}
+
+.input_section > form > .input {
+    margin: 8px ;
+    padding-bottom: 12px;
+}
+
+.input_section > form{
+    padding-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.input_section > form > button {
+  background: #dafacd;
+  color: #454d43;
+  border: 2px black solid;
+  border: 0;
+  margin: auto;
+  border-radius: 5px;
+  display: block;
+  width: 80%;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.input_section > form > button:hover{
+    border: 2px grey solid;
+}
+
+
+.input_section > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+
+.input_section > form > .input > label {
+    font-family: "Open Sans", sans-serif;
+    color: #454d43;
+}
+
+.input_section > form > .input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+aside{
+    margin: 0 auto;
+    width: 70%;
+    padding-right: 20px;
+    overflow: auto;
+}
+
+.book_shelf {
+    box-shadow: 1;
+    border-radius: 20px;
+    border: 3px solid grey;
+    height: 400px;
+    text-align: justify;
+    overflow: auto;
+    margin-top: 50px;
+    box-shadow: 5px 8px 8px #dafacd;
+    
+}
+
+.book_shelf > h2 {
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    color: #454d43;
+    border-bottom: 3px grey solid;
+    
+    
+}
+
+.book_shelf > .book_list {
+    padding: 16px;
+
+}
+
+.item {
+    font-family: 'Noto Serif JP', serif;
+    margin-top: 30px;
+    color: #454d43;
+    text-align:justify;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 16px 16px 16px;
+   
+  
+}
+.item> .inner{
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.inner>h2{
+    font-weight: bold;
+    font-family: 'Noto Serif JP', serif;
+    padding-bottom: 10px;
+}
+
+.selesai-dibaca,.blm-selesai-dibaca {
+    padding: 1.5%;
+    cursor: pointer;
+    border: 2px black solid;
+    background: #cbffc7;
+    color: black;
+    border-radius: 10px;
+}
+
+.hapus-button {
+    border-radius: 10px;
+    padding: 1.5%;
+    margin-left: 3%;
+    cursor: pointer;
+    border: 2px black solid;
+    background: #ffcbc7;
+    color: black;
+}
+.selesai-dibaca:hover, .blm-selesai-dibaca:hover{
+   background: green;
+  color: white;
+    cursor: pointer;
+}
+
+.hapus-button:hover{
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
+.searchBook {
+    box-shadow: 1;
+    border-radius: 20px;
+    border: 3px solid grey;
+    height: 400px;
+    text-align: justify;
+    overflow: auto;
+    margin-top: 50px;
+    box-shadow: 5px 8px 8px #dafacd;
+    
+}
+
+.searchBook > h2 {
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    color: #454d43;
+    border-bottom: 3px grey solid;   
+}
+
+.searchBook > form {
+    padding-top: 50px;
+}
+
+.searchBook > form > input {
+    width: 60%;
+}
+
+.searchBook > form > label {
+    padding-left: 85px;
+    font-size: 23px;
+}
+
+.searchBook > form > button {
+  background: #dafacd;
+  color: #454d43;
+  border: 2px black solid;
+  border: 0;
+  border-radius: 5px;
+  padding:10px;
+}
+
+.searchBook > form > label {;
+  font-weight: bold;
+  color: #454d43;
+  margin-right: 10px;
+}
+
+footer {
+  padding: 20px;
+  background: #dafacd;
+  text-align: center;
+  color: #454d43;
+  font-weight: bold;
+  margin-top: 50px;
+  font-family: 'Noto Serif JP', serif;
+}
